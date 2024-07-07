@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145163818dc06cb4ea575aff39b191c4, type: 3}
+  m_Name: BulletProofVestConfig
+  m_EditorClassIdentifier: 
+  ItemId: BulletProofVest
+  Weight: 10
+  MaxCapacity: 1
+  Icon: {fileID: 21300000, guid: 7b5dfc6171532af42a301f3f8846c7eb, type: 3}
+  ItemType: 1
+  Name: "\u0411\u0440\u043E\u043D\u0435\u0436\u0438\u043B\u0435\u0442"
+  Armor: 10
+  PartOfBodyArmor: 1
