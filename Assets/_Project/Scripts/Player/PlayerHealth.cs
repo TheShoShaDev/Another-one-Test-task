@@ -15,7 +15,7 @@ public class PlayerHealth : Health
 
 		if (IsDead)
 		{
-			Debug.Log("Game Over!");
+			EventBus.OnGameOver();
 		}
 	}
 

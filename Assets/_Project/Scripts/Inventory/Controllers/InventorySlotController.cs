@@ -26,6 +26,11 @@ namespace Inventory
 
         private void OnSlotItemIdChanged(string newId)
         {
+            if (newId == null)
+            {
+                _view.Image.sprite = null;
+                return;
+            }
             _view.Image.sprite = ItemManager.Instance.GetItemConfig(newId).Icon;
         }
 
